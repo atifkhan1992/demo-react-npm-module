@@ -1,0 +1,32 @@
+{
+  "name": "demo-react-npm-package",
+  "version": "1.0.0",
+  "description": "React demo application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atifkhan1992/demo-react-npm-module.git"
+  },
+  "author": "Atif Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atifkhan1992/demo-react-npm-module/issues"
+  },
+  "homepage": "https://github.com/atifkhan1992/demo-react-npm-module#readme",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
